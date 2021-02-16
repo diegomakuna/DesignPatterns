@@ -13,7 +13,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ChainOfResponsibility", "Ch
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DP.CalculadorDeDescontos", "ChainOfResponsibility\DP.CalculadorDeDescontos\DP.CalculadorDeDescontos.csproj", "{8454CFCD-25E4-4F81-971D-E976AD410391}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DP.RequisicoesWeb", "ChainOfResponsibility\DP.RequisicoesWeb\DP.RequisicoesWeb.csproj", "{864064E6-DB59-4D51-98ED-9BFEA7F22005}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DP.RequisicoesWeb", "ChainOfResponsibility\DP.RequisicoesWeb\DP.RequisicoesWeb.csproj", "{864064E6-DB59-4D51-98ED-9BFEA7F22005}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TemplateMethod", "TemplateMethod", "{990C871E-DA84-4952-8962-871DA98F1D00}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DP.TM.CalculadorDeImpostos", "TemplateMethod\DP.TM.CalculadorDeImpostos\DP.TM.CalculadorDeImpostos.csproj", "{3FFAD6E1-78F8-4661-B621-D1FAC951573B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DP.TM.Relatorios", "TemplateMethod\DP.TM.Relatorios\DP.TM.Relatorios.csproj", "{DB9E0A1E-647F-4C10-B573-B36BFEE0378C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,6 +43,14 @@ Global
 		{864064E6-DB59-4D51-98ED-9BFEA7F22005}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{864064E6-DB59-4D51-98ED-9BFEA7F22005}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{864064E6-DB59-4D51-98ED-9BFEA7F22005}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FFAD6E1-78F8-4661-B621-D1FAC951573B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FFAD6E1-78F8-4661-B621-D1FAC951573B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FFAD6E1-78F8-4661-B621-D1FAC951573B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FFAD6E1-78F8-4661-B621-D1FAC951573B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB9E0A1E-647F-4C10-B573-B36BFEE0378C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB9E0A1E-647F-4C10-B573-B36BFEE0378C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB9E0A1E-647F-4C10-B573-B36BFEE0378C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB9E0A1E-647F-4C10-B573-B36BFEE0378C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -46,6 +60,8 @@ Global
 		{CDFC4DB7-63CE-4975-B543-3C017BD777BD} = {981F2B31-D07A-4F31-9F78-3C2306C947E0}
 		{8454CFCD-25E4-4F81-971D-E976AD410391} = {AE0C58D2-69FA-4BB6-BD15-66E746524B85}
 		{864064E6-DB59-4D51-98ED-9BFEA7F22005} = {AE0C58D2-69FA-4BB6-BD15-66E746524B85}
+		{3FFAD6E1-78F8-4661-B621-D1FAC951573B} = {990C871E-DA84-4952-8962-871DA98F1D00}
+		{DB9E0A1E-647F-4C10-B573-B36BFEE0378C} = {990C871E-DA84-4952-8962-871DA98F1D00}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0CDBC997-1FE9-4A71-9607-2A40D07B4E3F}
