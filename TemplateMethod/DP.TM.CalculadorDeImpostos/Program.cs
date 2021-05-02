@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DP.TM.CalculadorDeImpostos;
+using System;
 
 namespace DP.CalculadorDeImpostos
 {
@@ -12,7 +13,7 @@ namespace DP.CalculadorDeImpostos
             Imposto ICCC = new ICCC();
 
             Orcamento orcamento = new Orcamento(500.0);
-            CalculadorDeImpostos calculador = new CalculadorDeImpostos();
+            var calculador = new DP.TM.CalculadorDeImpostos.CalculadorDeImpostos();
 
             //calculando o ISS
             var orcamentoIss = calculador.RealizaCalculo(orcamento, Iss);
