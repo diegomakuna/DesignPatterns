@@ -39,6 +39,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Builder", "Builder", "{CDEF
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DP.Builder.Exemple01", "Creational\DP.Builder.Exemple01\DP.Builder.Exemple01.csproj", "{97C05637-B068-49F6-B46C-55433E61832A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DP.Builder.Exemple02", "Creational\DP.Builder.Exemple02\DP.Builder.Exemple02.csproj", "{E5FB1B1C-4C8E-4291-9C85-585A358ACEC0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{97C05637-B068-49F6-B46C-55433E61832A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{97C05637-B068-49F6-B46C-55433E61832A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{97C05637-B068-49F6-B46C-55433E61832A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5FB1B1C-4C8E-4291-9C85-585A358ACEC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5FB1B1C-4C8E-4291-9C85-585A358ACEC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5FB1B1C-4C8E-4291-9C85-585A358ACEC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5FB1B1C-4C8E-4291-9C85-585A358ACEC0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -101,6 +107,7 @@ Global
 		{B2D23BE9-76A9-4533-8C8D-BA0775C01126} = {E0AB176E-290E-43E1-B923-9FA489B97400}
 		{CDEFA929-23BE-4CE3-943B-5E5352E7179E} = {2918D6BF-7FA9-4CC4-AFC7-3BDD2B216F7A}
 		{97C05637-B068-49F6-B46C-55433E61832A} = {CDEFA929-23BE-4CE3-943B-5E5352E7179E}
+		{E5FB1B1C-4C8E-4291-9C85-585A358ACEC0} = {CDEFA929-23BE-4CE3-943B-5E5352E7179E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0CDBC997-1FE9-4A71-9607-2A40D07B4E3F}
